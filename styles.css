@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 54px 0 0 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width:892px;
+    margin:0 auto;
+}
+
+/*NAVBAR*/
+
+header {
+    height:52px;
+    width: 100%;
+    background:white;
+    position:fixed;
+    top:0px;
+    left:0;
+    z-index:100;
+}
+
+header img {
+    float:left;
+    margin-top: 10px;
+}
+
+.nav {
+    float:right;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav a {
+    color:black;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*HERO*/
+
+.hero {
+    background: url(images/confetti.jpg) no-repeat 0 0;
+    height:547px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.headline {
+    margin-top: 50px;
+}
+
+/*REVIEWS*/
+
+.reviews {
+    padding: 0 12%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align:center;
+    margin: 1.2em 0;
+}
+
+.review {
+    width:46%;
+    float:left;
+}
+
+.review:first-of-type {
+    margin-right: 8%;
+}
+
+.review-text {
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 22px;
+    margin: 0 0 1em;
+}
+
+.attribution {
+    position: relative;
+    padding: 10px 0 12px 64px;
+    color: #888;
+}
+
+.attribution img {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height:48px;
+    width:48px;
+    border:1px solid #bbb;
+    border-radius:50%;
+}
+
+.attribution b {
+    color: #333;
+}
+
+.profile_name{
+    margin-top:30px;
+    margin-left:60px;
+}
+
+span {
+    color:gray;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0 25px 0;
+    background:#454D4D;
+    overflow: auto;
+    font-size: 13px;
+}
+
+footer .link-list {
+    float: left;
+    width: 25%;
+}
+
+footer h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer .link-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .link-list a {
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    display: block;
+    padding: .7em 0;
+}
